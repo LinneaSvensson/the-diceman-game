@@ -1,0 +1,192 @@
+
+/* CSS Document */
+
+
+   $(window).load(function()) {
+    	$('.flexslider').flexslider();
+  		});
+
+
+
+
+header	{
+	width: 960px;
+
+}
+
+
+img.loggan		{
+	position: absolute;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+img.loggan:empty	{
+	top: 20%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+body	{
+	background-color: #455;
+}
+
+
+
+
+
+nav	{
+	
+}
+	
+
+
+h1, h2, h3, h4 {
+	font-family: 'Karla', sans-serif;
+	font-weight: 900;	
+	color: #7EABA6;
+}
+
+h1 {
+	text-align: center;
+	font-size: 72px;
+	text-transform: uppercase;
+}
+
+
+
+h2, h4	{
+	position: relative;
+	max-width: 960px;
+
+	
+
+}
+
+h2	{
+	font-size: 38px;
+
+
+}
+
+h4	{
+	text-transform: none;
+	margin: 10px 0;
+	color: #B1EBE2;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+p, ul, ol	{
+	font-family: 'Karla', sans-serif;
+	font-size: 14px;
+	color: #B1EBE2;
+	line-height: 14px;
+}
+
+#eftext	{
+	width: 400px;
+	margin-top: -15px;
+	margin-left: 370px;
+	
+	display: none;
+	text-align: justify;	
+
+}
+
+#pretext	{
+	width: 800px;
+	margin-top: -15px;
+	margin-left: 370px;
+
+	display: block;
+	text-align: justify;	
+
+}
+
+img.graphic	{
+	width: 90px;
+	margin-left: 40px;
+}
+
+
+#highscore	{
+	width: 400px;
+	margin-top: -15px;
+	margin-left: 80px;
+	text-align:left;
+	display: block;
+	float: left;	
+
+}
+
+#highscore.ol	{
+	padding-left: -40px;
+}
+
+#form	{
+	width: 180px;
+	margin-bottom: 200px;
+	display: block;
+	float: right;
+	text-align:left;
+
+}	
+
+#start	{
+	width:600px;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #455;
+	font-family: 'Karla', sans-serif;
+	border: solid 10px #7EABA6;
+	background-color: #B1EBE2;
+	margin-left: -70px;
+	font-weight: 900;
+	padding: 20px;
+}
+
+#throw {
+	width:150px;
+	font-size: 16px;
+	color: #455;
+	font-family: 'Karla', sans-serif;
+	border: solid 2px #7EABA6;
+	background-color: #B1EBE2;
+
+}
+
+#resultnow {
+
+}
+
+#dice1, #dice2, #dice3, #dice4, #dice5, #dice6	{
+	display:none;
+}
+	
+
+		
+
+footer	{
+	border-top: solid 2px #B1EBE2;
+	padding: 16px;
+	font-family: 'Karla', sans-serif;
+	font-size: 11px;
+	color: #455;
+  	background-color: #7EABA6;
+	clear: both;
+
+}
+
+
+#inner-footer	{
+	width: 940px;
+    margin: 0 auto;
+    position: relative;
+	
+}
